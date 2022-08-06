@@ -1,9 +1,9 @@
 import InnerContainer from "./component/InnerComponent";
 import NavBar from "./component/Navbar";
-
+import "./app.css";
 const App = () => {
   return (
-    <div className="App">
+    <div className="wrapper">
       <NavBar />
       <InnerContainer />
     </div>

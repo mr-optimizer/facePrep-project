@@ -8,17 +8,16 @@ const InnerContainer = () => {
   const [pageNumber, setPageNumber] = useState(1);
   const [loading, setLoading] = useState(false);
 
-  const fetchPhotos = async (pageNumber) => {
-    const access_key = "x1xSaI4YjkqcM5B0xs_ZsHNf_g4TZwt-BdGUEG784UU";
-    const res = await fetch(
-      `https://api.unsplash.com/photos/?client_id=${access_key}&page=${pageNumber}&per_page=10`
-    );
-    const data = await res.json();
+  const fetchDetails = async (pageNumber) => {
+    const res = await fetch("https://randomuser.me/api/?results=7")
+    .then(response => response.json());
+    const data = res.results;
+    console.log(res.results);
     setPhotos((img) => [...img, ...data]);
     setLoading(true);
   };
   useEffect(() => {
-    fetchPhotos(pageNumber);
+    fetchDetails(pageNumber);
   }, [pageNumber]);
   const loadMoreContacts = () => {
     setPageNumber((prevPageNum) => prevPageNum + 1);
@@ -42,8 +41,8 @@ const InnerContainer = () => {
       {photos.map((photo, index) => (
         <Contact
           key={index}
-          photoSrc={photo.urls.small}
-          name={`${photo.user.first_name} ${photo.user.last_name}`}
+          photoSrc={photo.picture.medium}
+          name={`${photo.name.first} ${photo.name.last}`}
         />
       ))}
       <LoadingSkeleton />
