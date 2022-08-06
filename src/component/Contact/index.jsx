@@ -1,4 +1,3 @@
-import * as React from "react";
 import classes from "./style.module.css";
 
 import Avatar from '@mui/material/Avatar';
@@ -8,12 +7,12 @@ const Contact = ({photoSrc, name}) => {
     <div className={classes.contact}>
         <div className={classes.contact_name}>{name}</div>
         <Avatar
-        alt="Shubham Kumar"
+        alt="img"
         src={photoSrc}
-        style={{ width: 56, height: 56 }}
+        style={{ width: 55, height: 55 }}
       />
     </div>
   )
 }
 
-export default Contact
+export default Contact;

@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
 import "./index.css";
-import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';  // React Tostify for alerts
+
 import App from "./App";
 import { AuthProvider } from "./context/AuthProvider";
+
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
