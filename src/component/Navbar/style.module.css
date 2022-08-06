@@ -1,0 +1,8 @@
+.dropDown{
+    min-width: 10rem;
+    display: flex;
+    align-items: center;
+}
+.flexGrow{
+    flex-grow: 1;
+}
