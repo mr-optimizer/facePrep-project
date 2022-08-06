@@ -26,7 +26,7 @@ const Home = () => {
 
   useEffect(() => {
     if (isLoggedIn === false) {
-      navigate("/login", { replace: true });
+      navigate("/facePrep-project/login", { replace: true });
     }
     setTimeout(() => {
       // It is mentioned in problem statement to fetch new data after the delay of 1sec

@@ -20,7 +20,7 @@ const LoginPage = () => {
   useEffect(() => {
     if (isLoggedIn) {
       //redirecting to home page if already login
-      navigate("/", { replace: true });
+      navigate("/facePrep-project/", { replace: true });
     }
   }, [isLoggedIn, navigate]);
 

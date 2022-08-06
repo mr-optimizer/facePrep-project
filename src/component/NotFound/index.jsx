@@ -15,7 +15,7 @@ const NotFound = () => {
             something is broken, report a problem.
           </p>
           <div className={classes.btn}>
-            <Link to="/">return home</Link>
+            <Link to="/facePrep-project/">return home</Link>
             <a href="mailto:sktovisit@gmail.com">report problem</a>
           </div>
         </div>
