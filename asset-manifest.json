@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/facePrep-project/static/css/main.e3f9a913.css",
+    "main.js": "/facePrep-project/static/js/main.72ddaf97.js",
+    "static/js/787.6affe07f.chunk.js": "/facePrep-project/static/js/787.6affe07f.chunk.js",
+    "index.html": "/facePrep-project/index.html",
+    "main.e3f9a913.css.map": "/facePrep-project/static/css/main.e3f9a913.css.map",
+    "main.72ddaf97.js.map": "/facePrep-project/static/js/main.72ddaf97.js.map",
+    "787.6affe07f.chunk.js.map": "/facePrep-project/static/js/787.6affe07f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3f9a913.css",
+    "static/js/main.72ddaf97.js"
+  ]
+}
