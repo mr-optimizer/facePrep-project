@@ -65,8 +65,9 @@ const NavBar = (props) => {
           color="inherit"
           aria-label="open drawer"
           sx={{ mr: 2 }}
+          onClick={handleDrawerToggle}
         >
-          <MenuIcon onClick={handleDrawerToggle} />
+          <MenuIcon  />
           <Box component="nav">
             <Drawer
               container={container}
