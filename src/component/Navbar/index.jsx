@@ -7,6 +7,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import MoreIcon from "@mui/icons-material/MoreVert";
+import Button from "@mui/material/Button";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 const NavBar = () => {
   return (
@@ -38,8 +39,11 @@ const NavBar = () => {
               edge="end"
               color="inherit"
             >
-              <MoreIcon />
             </IconButton>
+              <Button variant="outlined" style={{ color: "white"}}>
+                Logout
+              </Button>
+              <MoreIcon />
           </Toolbar>
         </AppBar>
       </Box>
