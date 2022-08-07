@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Infinite Scrool using react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An authenticated website has an infinite scroll consisting of different people's profile
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+- Infinite Scroll 
+- Authenticated routs
+- Custom 404 page for invalid URLs
+- Login/Logout
+- Skelton (For loading state)
 
-### `npm start`
+### API Used
+#### API:-
+```
+ https://randomuser.me/api/
+```
+#### DOC:-
+```
+https://randomuser.me/documentation
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Quick Start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+### Development
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm start  # Preview code example.
+```
+## DEMO
+### Login Page
+#### Mobile View
 
-### `npm run build`
+#### Login - - - - - - - - -> Home
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div style="display:flex;">
+<img src="https://github.com/skTheOptimizer/images/blob/365130405208af8e70bf0f8e23ecaf919b4f1653/Login(Mobile).png" width="40%"/>
+<img src="https://github.com/skTheOptimizer/images/blob/365130405208af8e70bf0f8e23ecaf919b4f1653/Home(Mobile).png" width="40%"/>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Error page on going to wrong urls
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div style="display:flex;">
+<img src="https://github.com/skTheOptimizer/images/blob/365130405208af8e70bf0f8e23ecaf919b4f1653/Drawer.png" width="40%"/>
+<img src="https://github.com/skTheOptimizer/images/blob/365130405208af8e70bf0f8e23ecaf919b4f1653/Error_page(Mobile).png" width="40%"/>
+</div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+Skelton is shown while data is fetched from API
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://github.com/skTheOptimizer/images/blob/365130405208af8e70bf0f8e23ecaf919b4f1653/Skelton.png" width="40%"/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Desktop View
+<img src="https://github.com/skTheOptimizer/images/blob/d4c278bdb5d33038cd4a09810c1476c0fb8900d4/Login(Desktop).jpeg" />
+<img src="https://github.com/skTheOptimizer/images/blob/365130405208af8e70bf0f8e23ecaf919b4f1653/HomePage.png" />
+<img src="https://github.com/skTheOptimizer/images/blob/365130405208af8e70bf0f8e23ecaf919b4f1653/Eror_Page(Desktop).png" />
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
